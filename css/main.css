@@ -241,7 +241,11 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(var(--background-overley), var(--background-overley)), url(../img/hero-optimiz.jpg);
+  background-image: linear-gradient(
+      var(--background-overley),
+      var(--background-overley)
+    ),
+    url(../img/hero-optimiz.jpg);
 }
 
 .main-title {
@@ -285,7 +289,8 @@ img {
   height: 100%;
   opacity: 1;
   visibility: visible;
-  transition: opacity 250ms var(--transition), visibility 250ms var(--transition);
+  transition: opacity 250ms var(--transition),
+    visibility 250ms var(--transition);
 }
 
 .backdrop.is-hidden .modal {
@@ -300,7 +305,8 @@ img {
   min-height: 580px;
   padding: 40px;
   background-color: var(--white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms var(--transition);
@@ -483,7 +489,8 @@ img {
   min-width: 200px;
   height: 50px;
   cursor: pointer;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   border: none;
   transition: background-color 250ms var(--transition);
@@ -502,7 +509,8 @@ img {
   min-height: 580px;
   padding: 40px;
   background-color: var(--white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms var(--transition);
@@ -685,7 +693,8 @@ img {
   min-width: 200px;
   height: 50px;
   cursor: pointer;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   border: none;
   transition: background-color 250ms var(--transition);
@@ -805,7 +814,8 @@ img {
 }
 
 .tiem-item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -836,7 +846,8 @@ img {
   height: 100%;
   width: 100%;
   fill: var(--fill-acon);
-  transition: background-color 250ms var(--transition), fill 250ms var(--transition);
+  transition: background-color 250ms var(--transition),
+    fill 250ms var(--transition);
 }
 
 .tiam-social-link:focus,
