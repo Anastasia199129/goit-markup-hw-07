@@ -30,10 +30,10 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
 
-.tiem-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .card-text {
@@ -49,6 +49,10 @@
   width: 44px;
   border-radius: 50%;
   cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .tiam-social-link {
@@ -62,19 +66,15 @@
 
   transition: background-color 250ms var(--transition),
     fill 250ms var(--transition);
-}
 
-.tiam-social-link:focus,
-.tiam-social-link:hover {
-  background-color: var(--accent-color);
-  fill: var(--white-color);
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+    fill: var(--white-color);
+  }
 }
 
 .list-team-icon {
   display: flex;
   justify-content: center;
-}
-
-.item-icon:not(:last-child) {
-  margin-right: 10px;
 }

@@ -42,11 +42,11 @@
   cursor: pointer;
   border-radius: 4px;
   border: none;
-}
 
-.main-btn:hover,
-.main-btn:focus {
-  background-color: var(--dark-background-button);
-  color: var(--white-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  &:hover,
+  &:focus {
+    background-color: var(--dark-background-button);
+    color: var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 }

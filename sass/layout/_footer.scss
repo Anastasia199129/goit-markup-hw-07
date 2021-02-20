@@ -38,11 +38,11 @@
   color: var(--link-footer);
 
   transition: color 250ms var(--transition);
-}
 
-.link-footer:hover,
-.link-footer:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .item-footer:not(:last-child) {
@@ -73,10 +73,10 @@
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   cursor: pointer;
-}
 
-.item-icon:not(:last-child) {
-  margin-right: 10px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .footer-social-link {
@@ -88,11 +88,11 @@
   border-radius: 50%;
 
   transition: background-color 250ms var(--transition);
-}
 
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .icon-footer {
@@ -108,15 +108,12 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
+  display: block;
+  margin-bottom: 20px;
 }
 
 .subscribe-conteiner {
   margin-left: auto;
-}
-
-.b-footer {
-  display: block;
-  margin-bottom: 20px;
 }
 
 .input-footer {
@@ -132,16 +129,16 @@
   border-radius: 4px;
 
   transition: border-color 250ms var(--transition);
-}
 
-.input-footer:focus {
-  outline: none;
-  border-color: var(--accent-color);
-}
+  &:focus {
+    outline: none;
+    border-color: var(--accent-color);
+  }
 
-.input-footer::placeholder {
-  display: inline-block;
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .subscribe-button {
@@ -166,19 +163,19 @@
   cursor: pointer;
 
   transition: background-color 250ms var(--transition);
-}
 
-.subscribe-button::after {
-  position: absolute;
-  content: '';
-  height: 24px;
-  width: 24px;
-  top: 13px;
-  right: 28px;
-  background-image: url(../img/telegramm.svg);
-}
+  &::after {
+    position: absolute;
+    content: '';
+    height: 24px;
+    width: 24px;
+    top: 13px;
+    right: 28px;
+    background-image: url(../img/telegramm.svg);
+  }
 
-.subscribe-button:hover,
-.subscribe-button:focus {
-  background-color: var(--dark-background-button);
+  &:hover,
+  &:focus {
+    background-color: var(--dark-background-button);
+  }
 }

@@ -35,11 +35,11 @@
 .button-close {
   fill: var(--bleak-color);
   transition: fill 250ms var(--transition);
-}
 
-.button:focus .button-close,
-.button:hover .button-close {
-  fill: var(--accent-color);
+  .button:focus &,
+  .button:hover & {
+    fill: var(--accent-color);
+  }
 }
 
 .backdrop.is-hidden {
