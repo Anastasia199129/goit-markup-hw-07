@@ -1,0 +1,52 @@
+.hero {
+  background-color: var(--dark-fone);
+  padding-top: 200px;
+  padding-bottom: 190px;
+}
+
+.overlay {
+  width: 1600px;
+  min-height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      var(--background-overley),
+      var(--background-overley)
+    ),
+    url(../img/hero-optimiz.jpg);
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 30px;
+}
+
+.main-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  background: var(--accent-color);
+  color: var(--white-color);
+  padding: 10px 30px;
+  min-width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: var(--dark-background-button);
+  color: var(--white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}

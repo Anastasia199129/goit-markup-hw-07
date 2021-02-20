@@ -1,0 +1,67 @@
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-linc-clients {
+  width: 170px;
+  height: 90px;
+  cursor: pointer;
+}
+.linc-clients:hover,
+.linc-clients:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.linc-clients:hover svg,
+.linc-clients:focus svg {
+  fill: var(--accent-color);
+}
+
+.linc-clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 1px solid var(--fill-acon);
+  border-radius: 4px;
+
+  transition: border 250ms var(--transition);
+}
+
+.icon-clients {
+  fill: var(--fill-acon);
+  transition: fill 250ms var(--transition);
+}
+
+.yago {
+  width: 44px;
+  height: 49px;
+}
+
+.here {
+  width: 40px;
+  height: 52px;
+}
+
+.compani {
+  width: 41px;
+  height: 42px;
+}
+
+.foster {
+  width: 79px;
+  height: 42px;
+}
+
+.brand {
+  width: 59px;
+  height: 47px;
+}
+
+.tagline {
+  width: 88px;
+  height: 45px;
+}

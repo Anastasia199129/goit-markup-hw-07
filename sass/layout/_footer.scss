@@ -1,0 +1,180 @@
+.footer {
+  background-color: var(--dark-fone);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 250px;
+}
+.footer-conteiner {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.address-footer {
+  font-style: normal;
+}
+
+.logo-footer {
+  display: block;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.text-logo {
+  color: var(--white-color);
+}
+
+.link-footer {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--link-footer);
+
+  transition: color 250ms var(--transition);
+}
+
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--accent-color);
+}
+
+.item-footer:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.white-link {
+  color: var(--white-color);
+}
+
+.footer-address {
+  margin-right: 70px;
+}
+
+.footer-list {
+  display: flex;
+}
+
+.conteiner-soclinks-footer b {
+  display: block;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.item-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+
+  transition: background-color 250ms var(--transition);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.icon-footer {
+  width: 20px;
+  height: 20px;
+  fill: var(--white-color);
+}
+
+.b-footer {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.subscribe-conteiner {
+  margin-left: auto;
+}
+
+.b-footer {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.input-footer {
+  display: inline-block;
+  width: 358px;
+  height: 50px;
+  padding: 15px;
+  color: var(--white-color);
+  background-color: var(--dark-fone);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  transition: border-color 250ms var(--transition);
+}
+
+.input-footer:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.input-footer::placeholder {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-button {
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 62px;
+  margin-left: 12px;
+  min-width: 200px;
+  height: 50px;
+  background: var(--accent-color);
+  color: var(--white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  transition: background-color 250ms var(--transition);
+}
+
+.subscribe-button::after {
+  position: absolute;
+  content: '';
+  height: 24px;
+  width: 24px;
+  top: 13px;
+  right: 28px;
+  background-image: url(../img/telegramm.svg);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: var(--dark-background-button);
+}

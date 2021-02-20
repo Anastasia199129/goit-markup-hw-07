@@ -1,0 +1,23 @@
+/*utils*/
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+/*base*/
+@import './base/common';
+@import './base/conteiner';
+
+/*components*/
+@import './components/title-section';
+@import './components/center';
+
+/*layout*/
+@import './layout/header';
+@import './layout/hero';
+@import './layout/backdropp';
+@import './layout/modal';
+@import './layout/modal-form.scss';
+@import './layout/about';
+@import './layout/section-img';
+@import './layout/tiam';
+@import './layout/clients';
+@import './layout/footer';
