@@ -158,13 +158,11 @@ img {
   transition: opacity 250ms var(--transition);
 }
 
-.list-item-link:hover,
-.list-item-link:focus {
+.list-item-link:hover, .list-item-link:focus {
   color: var(--accent-color);
 }
 
-.list-item-link:hover::after,
-.list-item-link:focus::after {
+.list-item-link:hover::after, .list-item-link:focus::after {
   opacity: 1;
 }
 
@@ -200,8 +198,7 @@ img {
   transition: color 250ms var(--transition);
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:hover, .contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -243,14 +240,11 @@ img {
   text-decoration: none;
   border: none;
   border-radius: 4px;
-  transition: background-color 250ms var(--transition),
-    color 250ms var(--transition), box-shadow 250ms var(--transition);
+  transition: background-color 250ms var(--transition), color 250ms var(--transition), box-shadow 250ms var(--transition);
 }
 
-.botton:hover,
-.botton:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+.botton:hover, .botton:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   background-color: var(--accent-color);
   color: var(--white-color);
@@ -260,8 +254,7 @@ img {
 .active {
   color: var(--white-color);
   background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -367,11 +360,9 @@ img {
   transition: box-shadow 250ms var(--transition);
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
+.portfolio-link:hover, .portfolio-link:focus {
   box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .footer {
@@ -416,8 +407,7 @@ img {
   transition: color 250ms var(--transition);
 }
 
-.link-footer:hover,
-.link-footer:focus {
+.link-footer:hover, .link-footer:focus {
   color: var(--accent-color);
 }
 
@@ -465,8 +455,7 @@ img {
   transition: background-color 250ms var(--transition);
 }
 
-.footer-social-link:hover,
-.footer-social-link:focus {
+.footer-social-link:hover, .footer-social-link:focus {
   background-color: var(--accent-color);
 }
 
@@ -548,8 +537,7 @@ img {
   background-image: url(../img/telegramm.svg);
 }
 
-.subscribe-button:hover,
-.subscribe-button:focus {
+.subscribe-button:hover, .subscribe-button:focus {
   background-color: var(--dark-background-button);
 }
 /*# sourceMappingURL=portfolio.css.map */
